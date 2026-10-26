@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Avenue Pub | Bacon Burgers and Salty Dogs on University Boulevard, Tuscaloosa</title>
+<meta name="description" content="Avenue Pub at 2230 University Boulevard in downtown Tuscaloosa. Half-pound Bacon Burger, Muchacho Shrimp Tacos and the Salty Dog. Call (205) 759-4900.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1b1512;
+  --ink2:#2a211c;
+  --cream:#f4ead9;
+  --cream2:#e6d8bf;
+  --brass:#d9a441;
+  --grape:#f08a6b;
+  --muted:#5b4d42;
+  --pad:clamp(20px,5vw,64px);
+  --max:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Work Sans",system-ui,sans-serif;font-size:18px;line-height:1.55;color:var(--ink);background:var(--cream)}
+h1,h2,h3{font-family:"Fraunces",Georgia,serif;line-height:1.05;letter-spacing:-.01em}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.bar{background:#000;color:#fff;font-size:14px;line-height:1.35;text-align:center;padding:9px 16px;font-weight:500}
+
+/* hero */
+.hero{background:var(--ink);color:var(--cream);padding:clamp(48px,9vw,112px) 0 0}
+.hero-grid{display:grid;gap:40px}
+.hero h1{font-size:clamp(44px,9.5vw,112px);font-weight:800;color:var(--cream)}
+.hero h1 em{font-style:normal;color:var(--brass)}
+.hero p.lead{font-size:clamp(19px,2.2vw,24px);max-width:34ch;margin-top:24px;color:#eadfca}
+.callbox{background:var(--grape);color:var(--ink);padding:28px clamp(22px,3vw,40px)}
+.callbox .k{font-weight:600;font-size:17px}
+.callbox a.num{display:block;font-family:"Fraunces",serif;font-weight:800;font-size:clamp(34px,7.5vw,56px);line-height:1.05;text-decoration:none;margin:6px 0 14px}
+.callbox a.num:hover{text-decoration:underline}
+.callbox address{font-style:normal;font-size:19px;font-weight:500;line-height:1.45}
+.callbox .hrs{margin-top:14px;padding-top:14px;border-top:2px solid var(--ink);font-size:17px}
+.strip{margin-top:clamp(48px,8vw,96px);border-top:1px solid #4a3d34;display:grid;grid-template-columns:1fr}
+.strip p{padding:16px 0;border-bottom:1px solid #4a3d34;font-size:17px;color:#eadfca}
+.strip p b{color:var(--brass);font-weight:600}
+
+/* menu */
+.menu{padding:clamp(56px,9vw,120px) 0}
+.menu h2{font-size:clamp(34px,5.8vw,68px);font-weight:800;max-width:16ch}
+.menu .intro{margin-top:18px;max-width:46ch;color:var(--muted)}
+.items{margin-top:clamp(32px,5vw,56px);border-top:3px solid var(--ink)}
+.item{display:grid;gap:6px;padding:26px 0;border-bottom:1px solid #b9a98f}
+.item h3{font-size:clamp(26px,3.6vw,40px);font-weight:600}
+.item p{max-width:52ch}
+.item.sig h3{font-size:clamp(32px,5vw,56px);font-weight:800}
+.item .tag{display:inline-block;font-weight:600;font-size:15px;color:var(--ink);background:var(--brass);padding:2px 10px;margin-bottom:8px;justify-self:start}
+.full{margin-top:32px;font-size:20px;font-weight:500;max-width:40ch}
+.full a{font-weight:600}
+
+/* salty dog */
+.dog{background:var(--grape);color:var(--ink);padding:clamp(48px,8vw,104px) 0}
+.dog-grid{display:grid;gap:32px}
+.dog h2{font-size:clamp(40px,8vw,104px);font-weight:800}
+.dog p.t{font-size:20px;max-width:34ch;margin-top:16px;font-weight:500}
+.dog ul{list-style:none;border-top:3px solid var(--ink)}
+.dog li{padding:16px 0;border-bottom:1px solid var(--ink);font-family:"Fraunces",serif;font-weight:600;font-size:clamp(24px,3.2vw,34px);line-height:1.15}
+
+/* story */
+.story{padding:clamp(56px,9vw,120px) 0;background:var(--cream2)}
+.story-grid{display:grid;gap:28px}
+.story h2{font-size:clamp(34px,5.8vw,68px);font-weight:800}
+.story p{max-width:52ch}
+.story p+p{margin-top:16px}
+.story .big{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(22px,2.6vw,30px);line-height:1.25;max-width:30ch}
+
+/* visit */
+.visit{padding:clamp(56px,9vw,120px) 0;background:var(--ink);color:var(--cream)}
+.visit h2{font-size:clamp(34px,5.8vw,68px);font-weight:800;max-width:18ch}
+.locs{margin-top:clamp(32px,5vw,56px);border-top:3px solid var(--brass)}
+.loc{display:grid;gap:8px;padding:28px 0;border-bottom:1px solid #4a3d34}
+.loc h3{font-size:clamp(26px,3.4vw,38px);font-weight:600;color:var(--brass)}
+.loc p{color:#eadfca}
+.loc a.ph{font-family:"Fraunces",serif;font-weight:600;font-size:26px;text-decoration:none;color:var(--cream)}
+.loc a.ph:hover{text-decoration:underline}
+.loc.home h3{color:var(--grape)}
+
+footer{background:#000;color:#d8ccb6;padding:32px 0;font-size:15px}
+footer .wrap{display:grid;gap:8px}
+footer a{color:#fff}
+
+a:focus-visible{outline:3px solid var(--brass);outline-offset:3px}
+
+@media(min-width:860px){
+  .hero-grid{grid-template-columns:1.35fr 1fr;align-items:end;gap:64px}
+  .strip{grid-template-columns:repeat(3,1fr);gap:40px}
+  .strip p{border-bottom:0;padding:20px 0}
+  .item{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:48px;align-items:baseline;padding:32px 0}
+  .item .tag{margin-bottom:0}
+  .item .left{display:flex;flex-direction:column}
+  .dog-grid{grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+  .story-grid{grid-template-columns:5fr 6fr;gap:80px;align-items:start}
+  .loc{grid-template-columns:minmax(0,5fr) minmax(0,4fr) minmax(0,3fr);gap:48px;align-items:baseline}
+  footer .wrap{grid-template-columns:1fr auto;align-items:center}
+}
+</style>
+</head>
+<body>
+<div class="bar">Concept preview made by Purcell Ventures for Avenue Pub. Not the official site.</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <h1>Half-pound <em>Bacon Burgers</em> on the corner of 23rd Avenue</h1>
+        <p class="lead">Avenue Pub is a pub and grill across from DePalma's in downtown Tuscaloosa. Burgers, shrimp tacos and a Salty Dog.</p>
+      </div>
+      <div class="callbox">
+        <p class="k">Call to ask about hours</p>
+        <a class="num" href="tel:+12057594900">(205) 759-4900</a>
+        <address>2230 University Boulevard<br>Tuscaloosa, AL<br>Corner of University Boulevard and 23rd Avenue</address>
+        <p class="hrs">Hours are not listed here. Call for hours.</p>
+      </div>
+    </div>
+    <div class="strip">
+      <p><b>Opened 2014</b> in Temerson Square</p>
+      <p><b>About 19 items</b> across appetizers, salads and entrees</p>
+      <p><b>Three locations</b> in Tuscaloosa and Orange Beach</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="menu" id="menu">
+  <div class="wrap">
+    <h2>The burger, the tacos and the sandwich people ask for</h2>
+    <p class="intro">The menu runs about 19 items across appetizers, salads and entrees. A few of them:</p>
+    <div class="items">
+      <div class="item sig">
+        <div class="left"><span class="tag">Signature</span><h3>Bacon Burger</h3></div>
+        <p>A half-pound patty. The burger Avenue Pub is known for.</p>
+      </div>
+      <div class="item">
+        <h3>Double Burger</h3>
+        <p>Two patties on one bun.</p>
+      </div>
+      <div class="item">
+        <h3>Fried Chicken Sandwich</h3>
+        <p>Fried chicken with cream cheese and pepper jelly.</p>
+      </div>
+      <div class="item">
+        <h3>Muchacho Shrimp Tacos</h3>
+        <p>Three tacos to an order. They were first served at our Orange Beach pub.</p>
+      </div>
+    </div>
+    <p class="full">Want the full list and today's prices? Call <a href="tel:+12057594900">(205) 759-4900</a>.</p>
+  </div>
+</section>
+
+<section class="dog" id="salty-dog">
+  <div class="wrap dog-grid">
+    <div>
+      <h2>The Salty Dog</h2>
+      <p class="t">On the menu since the first Avenue Pub opened. Three things in the glass.</p>
+    </div>
+    <ul>
+      <li>Tito's Handmade Vodka</li>
+      <li>Simple syrup</li>
+      <li>Fresh-squeezed grapefruit juice</li>
+    </ul>
+  </div>
+</section>
+
+<section class="story" id="story">
+  <div class="wrap story-grid">
+    <h2>Craig Williams opened the first one in Temerson Square</h2>
+    <div>
+      <p class="big">That was 2014.</p>
+      <p style="margin-top:16px">Craig Williams is the founder and owner. The downtown pub at University Boulevard and 23rd Avenue sits across the street from DePalma's. Two more Avenue Pubs followed, one north of the river and one on the water in Orange Beach.</p>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="wrap">
+    <h2>Three Avenue Pubs to walk into</h2>
+    <div class="locs">
+      <div class="loc home">
+        <h3>Downtown Tuscaloosa</h3>
+        <p>2230 University Boulevard, Tuscaloosa, AL. Corner of University Boulevard and 23rd Avenue, across from DePalma's.</p>
+        <a class="ph" href="tel:+12057594900">(205) 759-4900</a>
+      </div>
+      <div class="loc">
+        <h3>Northbank</h3>
+        <p>Off Rice Mine Road, north of the Black Warrior River.</p>
+        <a class="ph" href="tel:+12053314063">(205) 331-4063</a>
+      </div>
+      <div class="loc">
+        <h3>Orange Beach</h3>
+        <p>A waterfront Avenue Pub, where the Muchacho Shrimp Tacos began.</p>
+      </div>
+    </div>
+    <p style="margin-top:28px;max-width:44ch;color:#eadfca">Hours are not listed here. Call the pub you plan to visit.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>Avenue Pub, 2230 University Boulevard, Tuscaloosa, AL. <a href="tel:+12057594900">(205) 759-4900</a></div>
+    <div>Concept preview by Purcell Ventures</div>
+  </div>
+</footer>
+</body>
+</html>
